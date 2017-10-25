@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>fomularz-html5</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/andrzejplonka.ap@gmail.com" method="post">
+        <label for="name">Imię</label><br>
+        <input type="text" id="name" name="Imię"><br>
+
+        <label for="sname">Nazwisko</label><br>
+        <input type="text" id="sname" name="Nazwisko"><br>
+
+        <label for="email">mail</label><br>
+        <input type="email" id="email" name="Adres e-mail"><br>
+
+        <label for="telphone">Telefon</label><br>
+        <input type="tel" id="telphone" name="Telefon"><br>
+
+        <label>Miasto</label><br>
+        <select>
+        <option value="krakow">Kraków</option>
+        <option value="warszawa">Warszawa</option>
+        <option value="gdansk">Gdańsk</option>
+        </select><br>
+
+
+        <label> Płec</label> <br>
+        <label><input type="radio" name="sex" required value="Mezczyzna">Mężczyzna</label>
+        <label><input type="radio" name="sex" required value="Kobieta"> Kobieta </label><br><br>
+
+
+        <input type="checkbox" name="checkbox" />
+        <label>zgoda na dane osobowe</label><br><br>
+        <textarea name="wiadomość" placeholder="wiadomość" cols="30" rows="5"></textarea><br>
+        <input type="submit" value="Wyślij">
+    </form>
+
+
+</body>
+
+</html>
